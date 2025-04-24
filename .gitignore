@@ -1,0 +1,27 @@
+# node modules
+node_modules/
+
+# production build
+dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.vscode/
+.idea/
+
+# optional cache
+.cache/
+vite.config.ts.tsbuildinfo
+node_modules/.bin/autoprefixer
